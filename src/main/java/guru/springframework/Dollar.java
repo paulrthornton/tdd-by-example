@@ -9,7 +9,6 @@ public class Dollar {
     }
 
     Dollar times(int multiplier) {
-        // some change
         return new Dollar(amount * multiplier);
     }
 
